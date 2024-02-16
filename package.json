@@ -1,0 +1,46 @@
+{
+  "name": "empty-spfx",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=16.13.0 <17.0.0 || >=18.17.1 <19.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "build:prod": "gulp clean && gulp bundle --ship && gulp package-solution --ship",
+    "clean": "gulp clean",
+    "prettier": "npx prettier \"{src,tests}/**/*.ts\" --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "serve": "gulp bundle --custom-serve --max_old_space_size=4096 && fast-serve"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.115.6",
+    "@fluentui/react-components": "^9.46.4",
+    "@fluentui/react-icons": "^2.0.227",
+    "@microsoft/sp-component-base": "1.18.2",
+    "@microsoft/sp-core-library": "1.18.2",
+    "@microsoft/sp-lodash-subset": "1.18.2",
+    "@microsoft/sp-property-pane": "1.18.2",
+    "@microsoft/sp-webpart-base": "1.18.2",
+    "@pnp/graph": "^3.22.0",
+    "@pnp/logging": "^3.22.0",
+    "@pnp/sp": "^3.22.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/rush-stack-compiler-4.7": "0.1.0",
+    "@microsoft/sp-build-web": "1.18.2",
+    "@microsoft/sp-module-interfaces": "1.18.2",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^6.12.5",
+    "gulp": "4.0.2",
+    "prettier": "^3.2.5",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "4.7.4"
+  }
+}

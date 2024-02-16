@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "eddc26fe-818f-434e-b402-5deaeb2c2cc6",
+  "alias": "AzureFileManagerSpfxWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "Azure File Manager"
+      },
+      "description": {
+        "default": "WebPart for Azure file shares access. Version as of 08/02/2024."
+      },
+      "officeFabricIconFontName": "Page",
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAAFDUlEQVRoQ+2Ya0wcVRTHgYLWBnZ2oa3R2qo1MZb6aDStiW2sMW1i0g+aqvWDwUQ/GD+Ysi/YneEpW1qqVARtNUKkTVqibaCt9EX7oRpasRQ2QCu+AHk0qIB0YQWLZTn+z3gXdulQqRZ2Y+Ykv+zuzN57/+fMufeeOxG66aabbrrpptt1LPYNe4RklucarbJJssrxIDYu2TlH3A5Pk8zOKAi+z2hTkkApqAZN4CKoBZUgG6wzWuS4eWZFtAyxIdJRiHAixL8HcW1gBNAUjAEP+EqyKa+iTYLB5hA93WQzJNsjIcyEwZaDZ4w2mSObhIGfxecqfC6WrEosvr8EvgE+MC52oSOTlqTl0N3pObRIyaaElPRAR5g/wBGjVVlptCg3L72kzSmRkk1ejOjYMMBp0Ac4coGDXwHfAk6Ly+Ia3eHMorUFH1DO0SoqdzfS6e9/pOqWVqpq/o5Ka87R6/v203LXdoq3pwX21QInNkr/1QnOSUQ8BsI5whzRyaKnJCEljdbsKKID7gbyDA/T2NiYJqM+H7X09FJm5XG6J91Fpok+ujHuBsyjSCHnxs1gwaphUxTA0R0XdxceP4vbVLKHXizeQ0+++76aFiYRxflIjeQDB6ln0KspWgsf+PqndlqTXzQ+DmjFk0gUcm7MJLscjQ7s4Kq/w3szXOQ6dpJae/vUyAUK6PV66dM6N63OL6SsIydoaGQk6P50aUPf6wo/9DvAT7wy1pIaLWRN3+D5WjTuER3RQ1veVnP36uio5sAMR5Gj/vuVfyfeT31HF63Ymu93gp9+ARaMF5DOSySL/M/zArl3GxqViQ5okZxNX/zQQr5JUZ8p+OmW1tTSgtQMvxO8mg2DLlAMfY8brM6pnwpWnGXiz2peb95fcU3KzDSckptKdv89sYNXKE4raJOTjVbnPCE52LCer8ef1Ny/U86is61tmoPMJJyOly57yN3ZRWXn3eqCwXuHcILxwokspNUtQvaE4eZGoC6ZiTl51D80pDnIbMLzal9tHT2IPUM4wHiQTs9znRVkuMETWF06H922Y9ZyfzqcxAb4wFt5gU7UY2IbhXSIN5uxeSlP4QbvtnR/9lb6eWBAs7NQwHNx55dnAic411nPqeLjzMqt+JEOBsVNtV75+EyNZmehglP66cJdfgc41T9B2jgi8YV3XV6u1JtLM7dQ0u69VHK2ZtZXoevBE5xLD79O0MBr/8P48itfMNkV2rCzmGrbO2l45E/NTkJN2fn6wGq2jyfuNqCWv7wLNnRd0mwYLhxqvBA4DwbZAT4hqReUw0fDKmW04J06oATvZgcG+Ad7dbChSbNRuMDBtZUf9otnqtkBdd1fCAeOXWzWbBgudPzWT6u2F/jFc9q/ww7w2VU9UOSeOKXZMBzgajj3+KnACexF5byaHSgBavmwIjefmrt/0ewglHDqcDnB52ohninHwSuaCzguH9QNjJ/C+qKPqK6jM2wmc7dnAIepqsniuSp9TN2FDRYlBhd2AbUK5RJ2GQq5Nz8rh9f1mNgXQkAT7T1XR/aKz2klcp6PqkI404u96xXJ4ohSHWAzWuQFuMEHmaD3ONzwdkdmSNB49cJp3g5eht4YIX3CUF+zEy7QCYLe64QB/aACkX8CeT/10dJglufgj4+ADFAF+HUgv/OZbZpBI+B3UXkAVbI8V8ichr2WigpVjsYyFY8Se34owNgmo9l57alLN91000033f4/FhHxF/iFHUTR5navAAAAAElFTkSuQmCC",
+      "properties": {
+        "description": "WebPart for Azure file shares access. Version as of 08/02/2024."
+      }
+    }
+  ]
+}

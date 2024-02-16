@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Azure File Manager",
+    "id": "0bb1bcfc-b311-4ec1-bbef-cabdfdb0c090",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+    ],
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "CloudWerk GmbH",
+      "websiteUrl": "https://www.cloudwerk.com",
+      "privacyUrl": "https://www.cloudwerk.com/privacy",
+      "termsOfUseUrl": "https://www.cloudwerk.com/termsofuse",
+      "mpnId": "3687586"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "WebPart for Azure file shares access."
+      },
+      "longDescription": {
+        "default": "WebPart for Azure file shares access."
+      },
+      "categories": [
+        "Productivity",
+        "Collaboration"
+      ]
+    },
+    "features": [
+      {
+        "title": "Azure File Manager",
+        "description": "The feature that add a custom webpart for Azure file shares access",
+        "id": "32be42a0-2027-43ce-8393-23f17ee78e10",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cloudwerk-azure-filemanager.sppkg"
+  }
+}
